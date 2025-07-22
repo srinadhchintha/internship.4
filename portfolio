@@ -1,3 +1,664 @@
 portfolio
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PlantPal Project</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #cebcbc;
+      text-align: center;
+      color: #b46565;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+      background: white;
+      border-bottom: 1px solid #ddd;
+    }
+
+    header h1 {
+      font-size: 20px;
+      margin: 0;
+    }
+
+    nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: #925454;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #007BFF;
+    }
+
+    .project-box {
+      background-color: #b9b9c5;
+      color: rgb(176, 63, 63);
+      padding: 30px;
+      max-width: 600px;
+      margin: 100px auto;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(249, 85, 85, 0.1);
+    }
+
+    .project-box h2 {
+      margin-top: 0;
+    }
+
+    .project-box p, .project-box a {
+      margin: 10px 0;
+    }
+
+    .project-box a {
+      color: #2d3532;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .project-box a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Chintha Srinadh</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="resume.html">Resume</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <div class="project-box">
+    <h2>PlantPal Project</h2>
+    <p>PlantPal is a digital assistant for plant lovers. It helps track watering schedules, sunlight needs, and general plant care routines. The user-friendly design makes gardening easier for all levels.</p>
+    <p><strong>Technologies Used:</strong> HTML, CSS, JavaScript</p>
+    <p><strong>GitHub Repository:</strong> <a href="https://github.com/srinadhchintha/plantpal" target="_blank">github.com/srinadhchintha/plantpal</a></p>
+  </div>
+
+</body>
+</html>
+
+About.html
+<!-- about.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About Me</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>About Me</h2>
+  <p>I am a passionate web developer learning HTML, CSS, and JavaScript.</p>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About Me - Chintha Srinadh</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #ebc9c9;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 900px;
+      background-color: #afd9e9;
+      padding: 30px;
+      margin: auto;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      display: flex;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+
+    .profile-pic {
+      flex: 1 1 250px;
+    }
+
+    .profile-pic img {
+      width: 100%;
+      max-width: 250px;
+      border-radius: 10px;
+    }
+
+    .info {
+      flex: 2 1 500px;
+    }
+
+    h2 {
+      color: #007BFF;
+      margin-top: 0;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    a {
+      color: #007BFF;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        flex-direction: column;
+        align-items: center;
+      }
+      .profile-pic, .info {
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="profile-pic">
+      <img src="DSC_4164.JPG" alt="Chintha Srinadh Photo">
+    </div>
+    <div class="info">
+      <h2>About Me</h2>
+      <p>Hello! I'm <strong>Chintha Srinadh</strong>, an aspiring <strong>Full Stack Web Developer</strong> from Krishna District, Andhra Pradesh. I'm passionate about building responsive web applications using the <strong>MERN Stack</strong>.</p>
+
+      <h3>📌 Technical Skills</h3>
+      <ul>
+        <li>Frontend: HTML, CSS, JavaScript, React.js, Bootstrap</li>
+        <li>Backend: Node.js, Express.js</li>
+        <li>Database: MongoDB</li>
+        <li>Tools: Git, GitHub, VS Code</li>
+        <li>Basics: Flutter, Java (OOP)</li>
+      </ul>
+
+      <h3>🎓 Education</h3>
+      <ul>
+        <li><strong>B.Tech (IT)</strong> – MIC College, CGPA: 7.49 (2020–2024)</li>
+        <li><strong>Diploma (CSE)</strong> – Diviseema Polytechnic, GPA: 7.2</li>
+        <li><strong>SSC</strong> – Sree Vidya High School, GPA: 7.8</li
+
+CONTACT.HTML
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About - Chintha Srinadh</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #c6c1c1;
+      text-align: center;
+      padding: 60px 20px;
+      margin: 0;
+    }
+
+    header {
+      background-color: #867070;
+      border-bottom: 2px solid #ccc;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+
+    header h1 {
+      font-size: 22px;
+      color: #333;
+      margin: 0;
+    }
+
+    nav {
+      display: flex;
+      gap: 30px;
+    }
+
+    nav a {
+      text-decoration: none;
+      font-weight: 600;
+      color: #333;
+      font-size: 16px;
+      transition: color 0.2s;
+    }
+
+    nav a:hover {
+      color: #007BFF;
+    }
+
+    .container {
+      background: #c481bd;
+      padding: 40px 30px;
+      max-width: 420px;
+      margin: 40px auto;
+      border-radius: 16px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    img {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 25px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    }
+
+    h1 {
+      margin: 0 0 10px;
+      font-size: 26px;
+      color: #222;
+    }
+
+    p {
+      margin: 8px 0;
+      font-size: 16px;
+      color: #555;
+    }
+
+    @media (max-width: 600px) {
+      nav {
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 10px;
+      }
+
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .container {
+        padding: 30px 20px;
+      }
+
+      img {
+        width: 120px;
+        height: 120px;
+      }
+
+      h1 {
+        font-size: 22px;
+      }
+
+      p {
+        font-size: 14px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Chintha Srinadh</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="projects.html">Projects</a>
+      <a href="resume.html">Resume</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <img src="DSC_4164.JPG" alt="Chintha Srinadh Photo">
+    <h1>Chintha Srinadh</h1>
+    <p><strong>Email:</strong> srinadhchintha2001@gmail.com</p>
+    <p><strong>Phone:</strong> 7095865380</p>
+  </div>
+
+</body>
+</html>
+
+
+
+Projects.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Projects - Chintha Srinadh</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #7f5ea9;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    header {
+      background-color: #fff;
+      border-bottom: 1px solid #ddd;
+      padding: 10px 30px; /* reduced padding */
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      font-size: 20px; /* reduced font size */
+      margin: 0;
+    }
+
+    nav a {
+      margin-left: 15px;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #007BFF;
+    }
+
+    h2 {
+      color: #fff;
+      margin: 30px 0;
+      font-size: 28px;
+    }
+
+    .projects {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .card {
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      padding: 20px;
+      width: 250px;
+      text-align: left;
+      transition: background-color 0.3s, transform 0.2s;
+    }
+
+    .card:hover {
+      background-color: #4CAF50;
+      color: rgb(26, 1, 1);
+      transform: translateY(-5px);
+    }
+
+    .card-title {
+      font-weight: bold;
+      font-size: 1.2em;
+      margin-bottom: 5px;
+    }
+
+    .tech {
+      margin-top: 10px;
+      font-size: 0.9em;
+      color: #9c1414;
+    }
+
+    .card:hover .tech {
+      color: rgb(193, 220, 44);
+    }
+
+    footer {
+      margin-top: 50px;
+      font-size: 0.85em;
+      color: #eee;
+      padding: 20px;
+    }
+
+    @media (max-width: 768px) {
+      .projects {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .card {
+        width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Chintha Srinadh</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="projects.html">Projects</a>
+      <a href="resume.html">Resume</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <h2>My Projects</h2>
+
+  <div class="projects">
+    <div class="card">
+      <div class="card-title">Todo App</div>
+      <div>Manage tasks with login/register functionality</div>
+      <div class="tech">HTML, CSS, React, Node.js, MongoDB</div>
+    </div>
+    <div class="card">
+      <div class="card-title">LegalTitle.in</div>
+      <div>Legal document management platform</div>
+      <div class="tech">HTML, Bootstrap, JavaScript</div>
+    </div>
+    <div class="card">
+      <div class="card-title">District Bar Association</div>
+      <div>Responsive static website for a legal group</div>
+      <div class="tech">HTML, CSS, Bootstrap</div>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Chintha Srinadh. All rights reserved.
+  </footer>
+
+</body>
+</html>
+
+RESUME.HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Resume | Chintha Srinadh</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #b5d2ee;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #e7cfcf;
+      border-bottom: 1px solid #ddd;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      font-size: 24px;
+      margin: 0;
+    }
+
+    nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #007BFF;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+      background: #b3a9a9;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+
+    h2 {
+      color: #007BFF;
+      margin-top: 40px;
+      border-bottom: 2px solid #eee;
+      padding-bottom: 5px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    .section {
+      margin-bottom: 30px;
+    }
+
+    .contact-info {
+      font-size: 0.95em;
+    }
+
+    .bold {
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.85em;
+      padding: 20px;
+      background-color: #fff;
+      color: #777;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Chintha Srinadh</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="projects.html">projects</a>
+      <a href="resume.html">resume</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <div class="contact-info">
+      📞 7095865380 |
+      📧 srinadhchintha2001@gmail.com |
+      📍 Nawabpeta, Krishna District, Andhra Pradesh – 521185 <br>
+      🖥️ GitHub: <a href="#">[https://github.com/srinadhchintha]</a> |
+      LinkedIn: <a href="#">[www.linkedin.com/in/chintha-srinadh-6753442a5]</a>
+    </div>
+
+    <h2>Career Objective</h2>
+    <p>
+      Aspiring Full Stack Web Developer with hands-on experience in building responsive web applications using the MERN stack. Eager to contribute technical expertise and grow with an organization that values continuous learning and innovation.
+    </p>
+
+    <h2>Technical Skills</h2>
+    <ul>
+      <li><strong>Frontend:</strong> HTML, CSS, JavaScript, React.js, Bootstrap</li>
+      <li><strong>Backend:</strong> Node.js, Express.js</li>
+      <li><strong>Database:</strong> MongoDB</li>
+      <li><strong>Other Tools:</strong> Git, GitHub, VS Code</li>
+      <li><strong>Mobile App Dev (Basics):</strong> Flutter</li>
+      <li><strong>Programming:</strong> Java (OOP, Arrays, Control Statements)</li>
+    </ul>
+
+    <h2>Internship Experience</h2>
+    <p><strong>Full Stack Developer Intern (MERN Stack)</strong><br>
+    Live Matrix Information Solution Pvt. Ltd<br>
+    June 2023 – Aug 2024</p>
+    <ul>
+      <li>Built and maintained full-stack web applications using React.js, Node.js, Express, and MongoDB.</li>
+      <li>Implemented user authentication, RESTful APIs, and CRUD operations.</li>
+      <li>Participated in daily standups and collaborated using GitHub.</li>
+    </ul>
+
+    <h2>Projects</h2>
+    <ul>
+      <li><strong>LegalTitle.in:</strong> A web platform to manage legal titles and documents. Designed frontend UI and handled document upload feature. (Tech: HTML, CSS, JavaScript, Bootstrap)</li>
+      <li><strong>District Bar Association Website:</strong> Informative site for a legal association. Built static pages with responsive layout. (Tech: HTML, CSS, Bootstrap)</li>
+      <li><strong>Todo App (MERN Stack):</strong> Full-stack app allowing users to register, login, and manage tasks with JWT Auth and MongoDB. (Full-stack role)</li>
+    </ul>
+
+    <h2>Education</h2>
+    <ul>
+      <li><strong>B.Tech – Information Technology:</strong> DVR & Dr. HS MIC College of Technology | 2020 – 2024 | CGPA: 7.49</li>
+      <li><strong>Diploma – Computer Engineering:</strong> Diviseema Polytechnic College | 2017 – 2020 | GPA: 7.2</li>
+      <li><strong>SSC – Secondary Education:</strong> Sree Vidya High School | 2016 – 2017 | GPA: 7.8</li>
+    </ul>
+
+    <h2>Personal Strengths</h2>
+    <ul>
+      <li>Quick learner and proactive problem-solver</li>
+      <li>Good communication and teamwork skills</li>
+      <li>Ability to adapt to new tech stacks</li>
+    </ul>
+
+    <h2>Personal Details</h2>
+    <ul>
+      <li><strong>Father’s Name:</strong> Srinuvas Rao</li>
+      <li><strong>Date of Birth:</strong> 29 Nov 2001</li>
+      <li><strong>Languages Known:</strong> English, Telugu</li>
+      <li><strong>Location:</strong> Krishna District, Andhra Pradesh</li>
+    </ul>
+
+    <h2>Declaration</h2>
+    <p>I hereby declare that the information given above is true to the best of my knowledge.</p>
+    <p><strong>Place:</strong> Andhra Pradesh<br>
+    <strong>Signature:</strong> Ch. Srinadh</p>
+  </div>
+
+  <footer>
+    &copy; 2025 Chintha Srinadh
+  </footer>
+
+</b
+
+STYLE.css
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background: #f0f0f0;
+}
+header {
+  background: #008080;
+  color: white;
+  padding: 20px;
+}
+nav a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+}
 
 
