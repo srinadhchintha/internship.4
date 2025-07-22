@@ -1,0 +1,112 @@
+index.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My To-Do List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>My To-Do List</h1>
+
+  <input type="text" id="taskInput" placeholder="Enter your task">
+  <button id="addTask">Add Task</button>
+
+  <p class="message" id="message"></p>
+
+  <ul id="taskList"></ul>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
+
+
+Style.css
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #84e0ea;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+#taskInput {
+  padding: 10px;
+  width: 60%;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#addTask {
+  padding: 10px 15px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#addTask:hover {
+  background-color: #45a049;
+}
+
+.message {
+  margin-top: 15px;
+  font-weight: bold;
+  color: #4CAF50;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+li {
+  background-color: white;
+  padding: 10px;
+  margin: 5px auto;
+  width: 80%;
+  border: 1px solid #ccc;
+  text-align: left;
+  border-radius: 4px;
+}
+
+
+SCRIPT.JS
+
+const taskInput = document.getElementById("taskInput");
+const addTaskButton = document.getElementById("addTask");
+const taskList = document.getElementById("taskList");
+const message = document.getElementById("message");
+
+addTaskButton.addEventListener("click", function () {
+  const task = taskInput.value.trim();
+
+  if (task !== "") {
+    const li = document.createElement("li");
+    li.textContent = task;
+    taskList.appendChild(li);
+
+    // Show message based on task content
+    if (task.toLowerCase().includes("hello")) {
+      message.textContent = "👋 Hello there!";
+    } else {
+      message.textContent = "✅ Hi! Task added.";
+    }
+
+    taskInput.value = "";
+  } else {
+    message.textContent = "⚠️ Please enter a task.";
+  }
+});
+
+
